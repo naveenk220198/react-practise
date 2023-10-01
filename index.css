@@ -1,0 +1,69 @@
+.Header {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;
+}
+.nav-bar-items {
+    display: flex;
+    font-size: 25px;
+    list-style-type: none;
+    margin: 10px;
+}
+.nav-bar-items > li {
+    margin-right: 30px;
+}
+.rated-btn {
+    margin: 10px;
+}
+.res-card-shimmer {
+    margin: 10px 15px;
+    height: 300px;
+    width: 220px;
+    border: 1px rgb(254, 254, 254) solid;
+    background-color: rgb(168, 168, 168);
+}
+.res-card {
+    margin: 10px 15px;
+    height: 300px;
+    width: 220px;
+    border: 1px rgb(254, 254, 254) solid;
+}
+.food-card-logo {
+    width: 220px;
+    height: 120px;
+    border-radius: 20px;
+}
+.cardsBody {
+    justify-content: center;
+    width: 90vw;
+    margin: 5%;
+}
+.restaurantContainer {
+    display: flex;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.restaurantName {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+.ratings {
+    padding: 5px;
+    display: flex;
+    font-size: 15px;
+}
+.ratingLogo {
+    padding: 4px;
+    width: 12px;
+    height: 12px;
+}
+.cuisine {
+    padding: 0px 10px;
+    margin: 0 5px;
+}
